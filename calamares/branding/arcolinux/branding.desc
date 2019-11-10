@@ -68,10 +68,10 @@ strings:
     versionedName:       ArcoLinux
     shortVersionedName:  ArcoLinux
     bootloaderEntryName: ArcoLinux
-    productUrl:          https://arcolinux.info/
-    supportUrl:          https://arcolinuxforum.com/
+#    productUrl:          https://arcolinux.info/
+#    supportUrl:          https://arcolinuxforum.com/
 #    knownIssuesUrl:      https://arcolinux.info/
-    releaseNotesUrl:     https://arcolinux.info/arcolinux-editions/
+#    releaseNotesUrl:     https://arcolinux.info/arcolinux-editions/
 
 # These images are loaded from the branding module directory.
 #
