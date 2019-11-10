@@ -34,18 +34,6 @@ Presentation
     Slide {
 
         Image {
-            id: background0
-            source: "calamares-welcome.png"
-            width: 800; height: 350
-            fillMode: Image.PreserveAspectFit
-			anchors.centerIn: parent
-        }
-
-    }
-
-    Slide {
-
-        Image {
             id: background1
             source: "calamares-0.png"
             width: 800; height: 350
@@ -54,6 +42,7 @@ Presentation
         }
 
     }
+
 
     Slide {
 
@@ -122,7 +111,7 @@ Presentation
             source: "calamares-6.png"
             width: 800; height: 350
             fillMode: Image.PreserveAspectFit
-      anchors.centerIn: parent
+			anchors.centerIn: parent
         }
 
     }
@@ -134,7 +123,7 @@ Presentation
             source: "calamares-7.png"
             width: 800; height: 350
             fillMode: Image.PreserveAspectFit
-			anchors.centerIn: parent
+      anchors.centerIn: parent
         }
 
     }
@@ -158,7 +147,7 @@ Presentation
             source: "calamares-9.png"
             width: 800; height: 350
             fillMode: Image.PreserveAspectFit
-      anchors.centerIn: parent
+			anchors.centerIn: parent
         }
 
     }
@@ -170,7 +159,7 @@ Presentation
             source: "calamares-10.png"
             width: 800; height: 350
             fillMode: Image.PreserveAspectFit
-			anchors.centerIn: parent
+      anchors.centerIn: parent
         }
 
     }
@@ -242,7 +231,7 @@ Presentation
             source: "calamares-16.png"
             width: 800; height: 350
             fillMode: Image.PreserveAspectFit
-      anchors.centerIn: parent
+			anchors.centerIn: parent
         }
 
     }
@@ -307,7 +296,6 @@ Presentation
 
     }
 
-
     Slide {
 
         Image {
@@ -319,6 +307,7 @@ Presentation
         }
 
     }
+
 
     Slide {
 
@@ -392,12 +381,24 @@ Presentation
 
     }
 
+    Slide {
+
+        Image {
+            id: background30
+            source: "calamares-29.png"
+            width: 800; height: 350
+            fillMode: Image.PreserveAspectFit
+      anchors.centerIn: parent
+        }
+
+    }
+
 
     Slide {
 
         Image {
-            id: background29
-            source: "calamares-29.png"
+            id: background31
+            source: "calamares-30.png"
             width: 800; height: 350
             fillMode: Image.PreserveAspectFit
       anchors.centerIn: parent
