@@ -406,4 +406,28 @@ Presentation
 
     }
 
+    Slide {
+
+        Image {
+            id: background32
+            source: "calamares-31.png"
+            width: 800; height: 350
+            fillMode: Image.PreserveAspectFit
+      anchors.centerIn: parent
+        }
+
+    }
+    Slide {
+
+        Image {
+            id: background33
+            source: "calamares-32.png"
+            width: 800; height: 350
+            fillMode: Image.PreserveAspectFit
+      anchors.centerIn: parent
+        }
+
+    }
+
+
 }
