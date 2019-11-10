@@ -24,11 +24,17 @@ Presentation
 {
     id: presentation
 
+    function nextSlide() {
+        console.log("QML Component (default slideshow) Next slide");
+        presentation.goToNextSlide();
+    }
+
     Timer {
-        interval: 4000
-        running: false
+        id: advanceTimer
+        interval: 1000
+        running: presentation.activatedInCalamares
         repeat: true
-        onTriggered: presentation.goToNextSlide()
+        onTriggered: nextSlide()
     }
 
     Slide {
@@ -38,9 +44,17 @@ Presentation
             source: "calamares-0.png"
             width: 800; height: 350
             fillMode: Image.PreserveAspectFit
-			anchors.centerIn: parent
-      centeredText: qsTr("CLICK THE IMAGE TO CONTINUE")
+			      anchors.centerIn: parent
         }
+
+        Text {
+          anchors.horizontalCenter: background.horizontalCenter
+          anchors.top: background.bottom
+          text: "CLICK TO CONTINU"
+          wrapMode: Text.WordWrap
+          width: presentation.width
+          horizontalAlignment: Text.Center
+      }
 
     }
 
@@ -431,5 +445,13 @@ Presentation
         }
 
     }
+    function onActivate() {
+          console.log("QML Component (default slideshow) activated");
+          presentation.currentSlide = 0;
+    }
 
+    function onLeave() {
+          console.log("QML Component (default slideshow) deactivated");
+    }
+    
 }
