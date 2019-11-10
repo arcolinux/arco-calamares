@@ -31,7 +31,7 @@ Presentation
 
     Timer {
         id: advanceTimer
-        interval: 1000
+        interval: 5000
         running: presentation.activatedInCalamares
         repeat: true
         onTriggered: nextSlide()
@@ -46,15 +46,6 @@ Presentation
             fillMode: Image.PreserveAspectFit
 			      anchors.centerIn: parent
         }
-
-        Text {
-          anchors.horizontalCenter: background.horizontalCenter
-          anchors.top: background.bottom
-          text: "CLICK TO CONTINU"
-          wrapMode: Text.WordWrap
-          width: presentation.width
-          horizontalAlignment: Text.Center
-      }
 
     }
 
@@ -453,5 +444,5 @@ Presentation
     function onLeave() {
           console.log("QML Component (default slideshow) deactivated");
     }
-    
+
 }
