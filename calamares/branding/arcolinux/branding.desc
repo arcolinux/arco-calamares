@@ -33,7 +33,7 @@ windowExpanding:    normal
 # This setting is ignored if "fullscreen" is selected for
 # *windowExpanding*, above. If not set, use constants defined
 # in CalamaresUtilsGui, 800x520.
-windowSize: 1200px,750px
+windowSize: 1100px,650px
 
 # These are strings shown to the user in the user interface.
 # There is no provision for translating them -- since they
@@ -64,10 +64,10 @@ strings:
     versionedName:       ArcoLinux
     shortVersionedName:  ArcoLinux
     bootloaderEntryName: ArcoLinux
-#    productUrl:          https://arcolinux.info/
-#    supportUrl:          https://arcolinux.info/
+    productUrl:          https://arcolinux.info/
+    supportUrl:          https://arcolinuxforum.com/
 #    knownIssuesUrl:      https://arcolinux.info/
-#    releaseNotesUrl:     https://arcolinux.info/
+    releaseNotesUrl:     https://arcolinux.info/arcolinux-editions/
 
 # These images are loaded from the branding module directory.
 #
