@@ -1,5 +1,5 @@
 - name: "Accessories"
-  description: "Accessories"
+  description: "Accessories of all sorts"
   critical: false
   hidden: false
   selected: false
@@ -10,20 +10,6 @@
     - mediainfo
     - mcomix
     - pdfarranger
-- name: "File Manager"
-  description: "Filemanager"
-  critical: false
-  hidden: false
-  selected: false
-  packages:
-    - caja
-    - dolphin
-    - mc
-    - nautilus
-    - nemo
-    - nemo-fileroller
-    - pcmanfm
-    - ranger
 - name: "Fonts"
   description: "Fonts"
   critical: false
@@ -32,7 +18,7 @@
   packages:
     - terminus-font
 - name: "Git"
-  description: "Git"
+  description: "Git applications"
   critical: false
   hidden: false
   selected: false
@@ -41,19 +27,8 @@
     - gitg
     - gitfiend
     - gitkraken
-- name: "Graphics"
-  description: "Graphics"
-  critical: false
-  hidden: false
-  selected: false
-  packages:
-    - blender
-    - darktable
-    - digikam
-    - krita
-    - pinta
 - name: "Fun"
-  description: "Fun"
+  description: "Fun script from ArcoLinux - great for screenshots"
   critical: false
   hidden: false
   selected: false
@@ -78,25 +53,8 @@
     - tor-browser
     - tor
     - privoxy
-- name: "Terminals"
-  description: "Terminals"
-  critical: false
-  hidden: false
-  selected: false
-  packages:
-    - alacritty
-    - gnome-terminal
-    - guake
-    - kitty
-    - konsole
-    - lxterminal
-    - sakura
-    - terminator
-    - tilix
-    - tilda
-    - tmux
 - name: "Usb"
-  description: "Usb"
+  description: "Usb writing applications"
   critical: false
   hidden: false
   selected: false
