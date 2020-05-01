@@ -1,5 +1,5 @@
 - name: "Accessories"
-  description: "Accessories of all sorts"
+  description: "Accessories"
   critical: false
   hidden: false
   selected: false
@@ -31,7 +31,7 @@
     - gitfiend
     - gitkraken
 - name: "Fun"
-  description: "Fun script from ArcoLinux - great for screenshots"
+  description: "Fun script from ArcoLinux"
   critical: false
   hidden: false
   selected: false
