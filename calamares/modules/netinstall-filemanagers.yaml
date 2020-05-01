@@ -1,5 +1,5 @@
-- name: "File Manager"
-  description: "Filemanager"
+- name: "Filemanagers"
+  description: "Filemanagers"
   critical: false
   hidden: false
   selected: false
