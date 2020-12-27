@@ -24,13 +24,7 @@ The examples are not exhaustive.
 
 */
 
-/*
 
-arcolinux blue 		#6790eb
-blue slider				#3499D8
-calamares orange 	#58B2D7
-
-*/
 /* ########## MAIN APPLICATION WINDOW ########## */
 
 #mainApp {
