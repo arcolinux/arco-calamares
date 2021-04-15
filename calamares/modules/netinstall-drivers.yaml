@@ -58,7 +58,6 @@
     - nvidia-lts
     - nvidia-settings
     - nvidia-utils
-    - nvidia-dkms
 - name: "Cuda toolkit"
   description: "Installs the Cuda Toolkit"
   critical: false
