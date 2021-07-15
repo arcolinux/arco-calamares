@@ -5,7 +5,7 @@
   selected: false
   expanded: true
   packages:
-    - brave
+    - brave-bin
     - deluge
     - dropbox
     - evolution
@@ -20,13 +20,13 @@
     - insync
     - ktorrent
     - librewolf-bin
+    - megasync-bin
     - midori
     - min
     - netsurf
     - nextcloud-client
     - opera
-    - pidgin
     - qutebrowser
     - thunderbird
-    - torbrowser-launcher
+    - torbrowser
     - transmission-gtk
