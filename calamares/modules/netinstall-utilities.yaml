@@ -99,6 +99,7 @@
     - cpu-x
     - glances
     - gotop-bin
+    - gsmartcontrol
     - nvtop
     - nvtop-git
     - ookla-speedtest-bin
