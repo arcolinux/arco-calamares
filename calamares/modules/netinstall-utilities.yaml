@@ -58,6 +58,7 @@
     - flatpak
     - octopi
     - pamac-all
+    - pace
     - paru-bin
     - pikaur-git
     - snapd
@@ -127,6 +128,7 @@
     - google-earth-pro
     - grsync
     - kbackup
+    - linux-wifi-hotspot
     - mullvad-vpn-bin
     - pacback
     - parcellite
