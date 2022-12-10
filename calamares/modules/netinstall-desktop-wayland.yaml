@@ -1,5 +1,5 @@
 - name: "Desktop: Hyprland - WAYLAND"
-  description: "Installs hyprland - not on VB - not with nvidia gpu driver"
+  description: "Installs hyprland - only on real metal - not with nvidia gpu driver"
   critical: false
   hidden: false
   selected: false
@@ -9,9 +9,8 @@
     - arcolinux-hyprland-git
     - arcolinux-wayland-profile-git
     - arcolinux-hyprland-profile-git
-    - hyprpicker-git
 - name: "Desktop: Sway - WAYLAND"
-  description: "Installs sway - not on VB - not with nvidia gpu driver"
+  description: "Installs sway - only on real metal - not with nvidia gpu driver"
   critical: false
   hidden: false
   selected: false
